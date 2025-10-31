@@ -13,8 +13,7 @@
 5. Active-Active Independent vs other strategies — realistic trade-offs
 6. No Trust Architecture (what it means and how to implement)
 7. Practical checklist & runbook for designing 99.999% availability
-8. Telugu summary: comparison of strategies and Chaos Engineering explained in Telugu
-9. Further reading & next steps
+8. Further reading & next steps
 
 ---
 
