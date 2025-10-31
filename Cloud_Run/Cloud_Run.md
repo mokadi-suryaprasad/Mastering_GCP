@@ -41,7 +41,7 @@ a container, and Cloud Run takes care of running it for you.
 
 ``` text
                           ┌──────────────────────────────┐
-                          │      Google Cloud Compute     │
+                          │      Google Cloud Compute    │
                           └──────────────────────────────┘
                                       │
         ┌─────────────────────────────┼────────────────────────────────┐
