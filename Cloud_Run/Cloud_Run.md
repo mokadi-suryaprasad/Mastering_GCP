@@ -39,6 +39,7 @@ a container, and Cloud Run takes care of running it for you.
 
 ✅ Cloud Run vs App Engine vs GKE — Comparison Diagram
 
+``` text
                           ┌──────────────────────────────┐
                           │      Google Cloud Compute     │
                           └──────────────────────────────┘
@@ -78,7 +79,7 @@ a container, and Cloud Run takes care of running it for you.
 │ Cold Starts          │ Sometimes              │ Minimal                      │ None (always running)
 └──────────────────────┴───────────────────────┴──────────────────────────────┘
 
-
+```
 ✅ Comparison: Cloud Run vs App Engine vs GKE
 
 | Feature                 | **Cloud Run**          | **App Engine**                     | **GKE (Kubernetes)**                    |
