@@ -204,10 +204,4 @@ This is why Netflix became the **benchmark for cloud reliability**.
 
 ---
 
-If you want, I can also add:
-✅ Chaos Engineering diagrams
-✅ Step-by-step Kubernetes chaos experiments
-✅ Netflix region-failure architecture diagram
-✅ AWS, GCP, Azure chaos playbooks
 
-Just tell me and I will update the file!
