@@ -47,8 +47,8 @@ a container, and Cloud Run takes care of running it for you.
         ┌─────────────────────────────┼────────────────────────────────┐
         │                             │                                │
 ┌──────────────────┐        ┌──────────────────┐             ┌──────────────────┐
-│    Cloud Run     │        │   App Engine     │             │       GKE         │
-│  (Serverless)    │        │ (PaaS Platform)  │             │ (Kubernetes)      │
+│    Cloud Run     │        │   App Engine     │             │       GKE        │
+│  (Serverless)    │        │ (PaaS Platform)  │             │ (Kubernetes)     │
 └──────────────────┘        └──────────────────┘             └──────────────────┘
         │                             │                                │
         │                             │                                │
