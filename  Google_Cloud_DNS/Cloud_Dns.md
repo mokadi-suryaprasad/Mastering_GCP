@@ -1,5 +1,3 @@
-# Cloud_DNS.md
-
 # ✅ Google Cloud DNS --- Complete Beginner to Advanced Guide
 
 Google Cloud DNS is a **high‑performance, scalable, global Domain Name
