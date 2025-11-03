@@ -10,7 +10,7 @@ This document explains **every VPC networking task in Google Cloud Console (UI o
 No CLI commands. 100% Console.
 
 It covers:
-
+   
 ✅ VPC creation
 ✅ Subnets
 ✅ Firewall rules
