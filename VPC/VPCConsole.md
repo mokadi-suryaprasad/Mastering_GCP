@@ -10,6 +10,7 @@ This document explains **every VPC networking task in Google Cloud Console (UI o
 No CLI commands. 100% Console.
 
 It covers:
+
 ✅ VPC creation
 ✅ Subnets
 ✅ Firewall rules
@@ -279,6 +280,7 @@ Required for:
 # ✅ 15. End of Guide
 
 This **100% Console‑based VPC guide** covers:
+
 ✅ VPC creation
 ✅ Subnets
 ✅ Firewall
@@ -291,6 +293,7 @@ This **100% Console‑based VPC guide** covers:
 ✅ Shared VPC
 
 If you want, I can add:
+
 ✅ VPC diagrams (Mermaid)
 ✅ Real interview questions
 ✅ Real-time architecture examples
