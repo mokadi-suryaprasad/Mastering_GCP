@@ -50,6 +50,7 @@ Your GKE cluster in VPC A can resolve names inside VPC B.
 
 # ✅ 3. Common DNS Record Types
 
+
   Record      Purpose                   Example
   ----------- ------------------------- -----------------------------------
   **A**       Domain → IPv4             `example.com → 34.12.56.8`
@@ -242,4 +243,3 @@ Allow VPC A to resolve DNS of VPC B.
 
 ------------------------------------------------------------------------
 
-# ✅ End of Document
