@@ -99,5 +99,3 @@ Filter:
 Use the "k8s_container" filter in Logs Explorer or run `kubectl logs`.
 
 ------------------------------------------------------------------------
-
-## ✅ End of Document
