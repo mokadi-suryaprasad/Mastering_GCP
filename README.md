@@ -51,21 +51,3 @@ Every file is structured in a clean, simple, easy-to-understand format.
 ✅ High Availability: Multi-region, DR strategies  
 
 ---
-
-# 📌 Want to Add More?
-
-I can generate full modules for:
-
-✅ GKE — cluster setup, deployments, autoscaling, networking  
-✅ Load Balancers — global, regional, internal, diagrams  
-✅ Cloud SQL — private IP, connectors, IAM auth  
-✅ Cloud Functions — Pub/Sub and Storage triggers  
-✅ Artifact Registry + CI/CD pipelines  
-✅ Pub/Sub — event-driven architecture  
-✅ BigQuery — datasets, tables, partitions, SQL  
-
-Just tell me:
-
-👉 **“Add GKE folder”**  
-👉 **“Add Cloud_SQL.md”**  
-👉 **“Add Load_Balancing folder”**  
