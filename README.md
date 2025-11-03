@@ -1,53 +1,73 @@
+# Google Cloud Services Documentation
+
+This repository contains detailed and easy-to-understand documentation for various **Google Cloud Platform (GCP)** services. Each service has its own dedicated folder and Markdown file for clear learning and revision.
 
 ---
 
-# 🚀 Purpose of This Repository
+## 📌 Included GCP Services
+
+### ✅ Compute Services
+- **Compute Engine**
+- **App Engine**
+- **Cloud Run**
+- **Cloud Functions**
+
+### ✅ Storage & Databases
+- **Google Cloud Storage (GCS)**
+- **Cloud SQL**
+- **BigQuery**
+
+### ✅ Networking
+- **VPC**
+- **Google Cloud DNS**
+- **Google Cloud Load Balancing**
+
+### ✅ Observability
+- **Google Cloud Logging**
+- **Google Cloud Monitoring**
+
+### ✅ Reliability & Architecture
+- **High Availability (HA)**
+
+### ✅ IAM & Security
+- **Identity and Access Management (IAM)**
+
+---
+
+## 📁 Repository Structure
+
+```
+├── App_Engine/
+├── BigQuery/
+├── Cloud_Run/
+├── Cloud_SQL/
+├── ComputeEngine/
+├── Google_Cloud_DNS/
+├── Google_Cloud_Load_Balancing/
+├── Google_Cloud_Logging/
+├── Google_Cloud_Monitoring/
+├── Google_Cloud_Storage/
+├── High Availability/
+├── IAM/
+├── VPC/
+└── README.md
+```
+
+---
+
+## 🚀 Purpose of This Repository
 
 This repository helps you:
 
-✅ Prepare for **GCP + DevOps interviews**  
-✅ Build **real production architectures** on GCP  
-✅ Use as a **quick reference guide** while working  
-✅ Revise cloud concepts in **simple English**  
-✅ Understand each topic with **diagrams + examples**  
+✅ Prepare for **GCP + DevOps Interviews**  
+✅ Quickly revise GCP services  
+✅ Refer to real-world explanations, workflows, diagrams  
+✅ Understand architecture without complicated wording  
 
 ---
 
-# 📘 How to Use This Repository
+## 📝 Contributions
 
-### ✅ 1. Learn Module by Module
-Each directory covers one major GCP service with theory + real examples.
-
-### ✅ 2. Use for Interviews
-Every file contains:
-- Common interview questions  
-- Scenario-based questions  
-- Real-time examples  
-
-### ✅ 3. Use for Real Projects
-Includes:
-- Terraform code  
-- YAML manifests  
-- Architecture diagrams  
-- Production rules  
-- Troubleshooting steps  
-
-### ✅ 4. Use for Quick Revision
-Every file is structured in a clean, simple, easy-to-understand format.
-
----
-
-# ✅ Topics Already Covered
-
-✅ VPC Networking: Subnets, Routes, Firewalls, Peering  
-✅ IAM: Roles, Policies, Service Accounts, WIF  
-✅ Compute Engine: VM lifecycle, disks, metadata, troubleshooting  
-✅ GCS: Bucket creation, lifecycle rules, storage classes  
-✅ Cloud DNS: Zones, Records, Routing Policies (Failover / Geolocation / Latency)  
-✅ Cloud Logging: Log Buckets, Sinks, Audit Logs  
-✅ Cloud Monitoring: Metrics, Alerts, Dashboards, SLOs  
-✅ Cloud Run: Deployments, revisions, traffic splitting  
-✅ App Engine: Standard & Flexible, scaling  
-✅ High Availability: Multi-region, DR strategies  
+You can add more `.md` files, diagrams, workflows, and hands-on commands as you continue learning.
 
 ---
