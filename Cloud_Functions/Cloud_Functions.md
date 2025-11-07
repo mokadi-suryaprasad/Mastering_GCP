@@ -4,7 +4,7 @@ This guide explains **what Cloud Functions are**, how Gen2 works under the hood,
 
 ---
 
-## 0) What is a Cloud Function? (Deep but simple)
+## 0) What is a Cloud Function?
 A **Cloud Function** is **small code that runs only when triggered** by an event: an **HTTP request**, a **file upload** to **Cloud Storage**, a **Pub/Sub message**, or a **schedule** (via Cloud Scheduler). You **don’t manage servers**. You write the handler, define the trigger, and GCP **scales it automatically**.
 
 ### Gen1 vs Gen2 (why Gen2 is better)
