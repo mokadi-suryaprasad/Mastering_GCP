@@ -19,22 +19,112 @@ We use Cloud Run when we:
 
 ---
 
-## 3. Cloud Run vs Compute Engine
-| Cloud Run | Compute Engine |
-|----------|----------------|
-| No servers to manage | You manage VM/server |
-| Auto-scaling built-in | Must configure scaling |
-| Pay per request | Pay while running |
-| Only containers | Any OS/applications |
+### Cloud Run vs Compute Engine
+
+| Feature | **Cloud Run** | **Compute Engine** |
+|--------|---------------|--------------------|
+| Server Management | No servers to manage | You manage the VM/server |
+| Scaling | Auto-scales automatically | You must configure scaling |
+| Billing Model | **Pay per request** | **Pay while running** |
+| Workload Type | Only containerized applications | Any OS / any application |
 
 ---
 
-## 4. Cloud Run vs Cloud Functions
-| Cloud Run | Cloud Functions |
-|----------|----------------|
-| Runs full applications | Runs only a small function |
-| Good for Microservices | Good for Event triggers |
-| More control | Less control |
+### What does **Pay per Request** mean?
+
+- In **Cloud Run**, you pay **only when your application is actually processing requests**.
+- If there are **no requests**, Cloud Run **scales to zero** and **you pay ₹0** during idle time.
+
+**Example:**  
+If your service receives no traffic for 3 hours → **No billing for those 3 hours**.
+
+---
+
+### What does **Pay while Running** mean?
+
+- In **Compute Engine**, you pay for the **VM as long as it is running**, even if **no user is accessing** your application.
+- The billing continues until you **stop or delete** the VM.
+
+**Example:**  
+Even if your server is idle for 3 hours → **You are still billed for those 3 hours**.
+
+---
+
+### Easy Technical Summary
+
+- **Cloud Run** → Billed based on **actual usage** (when requests are being processed).
+- **Compute Engine** → Billed based on **allocated resources** (CPU/Memory) while the VM is running.
+
+
+---
+
+## 4. Cloud Run vs Cloud Functions 
+
+### Overview
+
+| Feature | **Cloud Run** | **Cloud Functions** |
+|--------|----------------|--------------------|
+| What it Runs | **Full containerized applications** | **Single small function / code snippet** |
+| Use Case | Best for **microservices**, APIs, web applications | Best for **event-driven tasks** (e.g., file upload, Pub/Sub message) |
+| Control Level | **More control** over environment, runtime, dependencies | **Less control**, platform manages most of the runtime |
+| Language Support | Any language or runtime as long as it runs in a container | Supported runtimes only (Node.js, Python, Go, Java, etc.) |
+| Scaling Behavior | Auto-scales based on HTTP requests, can scale to **zero** when idle | Auto-scales based on **events**, also scales to **zero** when no triggers occur |
+| Networking | Can easily run inside **VPC** | Requires VPC connector setup for private network access |
+| **Cost Model** | **Pay per request + CPU/Memory time during request** | **Pay per function invocation + execution duration + memory used** |
+| Deployment Unit | Container image | Function code |
+
+---
+
+### Cost Model Explanation
+
+#### Cloud Run (Pay per Request)
+- You pay **only when your app is actively handling a request**.
+- If there is **no traffic**, Cloud Run **scales to zero** and costs **₹0**.
+- Billing is based on:
+  - Number of requests
+  - CPU & Memory usage **while the request is being processed**
+  - Request duration (milliseconds)
+
+#### Cloud Functions (Pay per Execution)
+- You pay **each time your function is triggered**.
+- If no events occur → **₹0 cost**.
+- Billing is based on:
+  - Number of invocations
+  - Execution time
+  - Memory allocated to the function
+
+---
+
+### How Cloud Functions are Triggered
+
+Cloud Functions are **event-driven**, meaning the code runs **only when an event happens**.
+
+| Trigger Type | Source | Example | What Causes the Function to Run |
+|--------------|--------|---------|--------------------------------|
+| **HTTP Trigger** | HTTP/HTTPS Request | API call | Function runs when the endpoint is hit |
+| **Cloud Storage** | Bucket Events | File upload/delete | Function runs to process the file |
+| **Pub/Sub** | Messaging System | Message published | Function runs to handle the message |
+| **Cloud Scheduler** | Cron-like Job | Every 5 minutes | Function runs on schedule |
+| **Firebase Trigger** | Firestore / Realtime DB | Document created/updated | Function reacts to DB change |
+
+**Important:**  
+If **no event** occurs → the function stays idle → **no cost**.
+
+---
+
+### Easy Summary (Interview Ready)
+
+- **Cloud Run** is used to **run full applications or microservices**.  
+  It gives more control and supports any language via containers.  
+  **Billing is based on request usage.**
+
+- **Cloud Functions** is used for **small tasks that run automatically when triggered by an event**.  
+  No server management; only code runs when needed.  
+  **Billing is based on number of function executions.**
+
+---
+
+
 
 ---
 
