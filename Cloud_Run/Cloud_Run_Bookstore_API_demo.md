@@ -1,6 +1,6 @@
 # Cloud Run Demo Project — "Bookstore API"
 
-**Project idea (good for interviews & demos):**  
+**Project idea:**  
 A simple, containerized RESTful API called **Bookstore API** that allows Create / Read / Update / Delete (CRUD) operations for books. We'll build it with **Python (FastAPI)**, containerize with Docker, store metadata in **Cloud SQL (Postgres)**, and deploy to **Google Cloud Run** with a CI/CD pipeline using **GitHub Actions**. The guide includes secure secrets, VPC access for Cloud SQL, logging, and cleanup steps.
 
 ---
