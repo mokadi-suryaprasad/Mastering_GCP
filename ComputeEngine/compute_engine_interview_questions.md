@@ -1,4 +1,4 @@
-# Compute Engine Interview Questions (Very Clear & Simple)
+# Compute Engine Interview Questions
 
 This document contains simple and clear explanations of Google Cloud Compute Engine concepts. Use this for interviews.
 
