@@ -202,7 +202,7 @@ Hello World
 
 ---
 
-## 🎉 Summary (Easy English)
+## 🎉 Summary 
 
 * **Producer VPC** hosts the Cloud Run service.
 * We expose it privately using an **Internal Load Balancer**.
@@ -212,7 +212,7 @@ Hello World
 
 ---
 
-## ⭐ What is PSC Mainly Used For? (Easy English)
+## ⭐ What is PSC Mainly Used For?
 
 Private Service Connect (PSC) is mainly used to:
 
@@ -249,7 +249,7 @@ If you want, I can also:
 
 ---
 
-## 🖼 Simple Diagram (Easy English)
+## 🖼 Simple Diagram 
 
 Below is a simple text-based diagram showing **how PSC connects two projects privately**.
 
