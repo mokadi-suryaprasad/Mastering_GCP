@@ -201,19 +201,6 @@ blob.upload_from_filename("app.log")
 
 ---
 
-If you want, I can add:
-✅ Architecture diagram
-✅ Real-time scenario questions
-✅ GCS signed URLs example
-✅ Node.js / Java / Go code samples
-✅ Terraform version of GCS
-
-# GCS.md — Google Cloud Storage (Step-by-step, Easy & Practical)
-
-This file is a clear, step-by-step guide to **Google Cloud Storage (GCS)** — concepts, console & CLI steps, code examples, security, best practices, and real-world usage. Replace placeholders like `PROJECT_ID`, `BUCKET_NAME`, `REGION` with your values.
-
----
-
 ## ✅ What is Google Cloud Storage (GCS)?
 
 GCS is an object storage service for storing files (objects) in **buckets**. Use it for backups, static website hosting, data lakes, logs, and more.
