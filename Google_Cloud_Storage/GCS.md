@@ -106,9 +106,7 @@ https://storage.googleapis.com/BUCKET_NAME/FILE_NAME
 
 ---
 
-## ✅ 8. GCS Storage Classes (Easy Explanation)
-
-### 1. **Standard** → For daily use
+## ✅ 8. GCS Storage Classes 
 
 ### 2. **Nearline** → Access once a month
 
@@ -123,8 +121,7 @@ Example:
 
 ---
 
-## ✅ 9. How GCS Permissions Work (Easy Way)
-
+## ✅ 9. How GCS Permissions Work
 GCS uses **IAM roles**.
 
 ### Common roles:
@@ -141,7 +138,7 @@ Console → IAM → Add → Enter email → Select role
 
 ---
 
-## ✅ 10. Access GCS from Compute Engine (Easy Ways)
+## ✅ 10. Access GCS from Compute Engine 
 
 There are **three** simple ways:
 
@@ -181,7 +178,7 @@ blob.upload_from_filename("app.log")
 
 ---
 
-## ✅ 12. GCS Best Practices (Super Simple)
+## ✅ 12. GCS Best Practices 
 
 ✅ Use **Uniform access**
 ✅ Enable **Bucket Versioning**
@@ -191,7 +188,7 @@ blob.upload_from_filename("app.log")
 
 ---
 
-## ✅ 13. Troubleshooting (Easy)
+## ✅ 13. Troubleshooting 
 
 **❌ Upload denied?**
 → You don’t have Storage Object Admin role.
