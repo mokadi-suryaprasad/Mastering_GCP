@@ -445,14 +445,3 @@ gsutil versioning set on gs://my-bucket/
 ```
 
 ---
-
-## ✅ Final Notes
-
-GCS is simple but powerful. Start with correct **bucket location, storage class, and access model**. Automate lifecycle and use service accounts for secure access.
-
-If you want, I can:
-
-* Add **diagrams (Mermaid)** showing architecture
-* Add **code examples** for Java, Go, and bash
-* Create a **one-page cheat sheet PDF**
-* Add **VPC-SC** playground examples
