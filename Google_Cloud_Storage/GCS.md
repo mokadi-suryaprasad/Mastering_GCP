@@ -151,7 +151,7 @@ There are **three** simple ways:
 
 Now the VM can access GCS without keys.
 
-### ✅ Way 2 — Use gcloud inside VM
+### Use gcloud inside VM
 
 ```bash
 gcloud storage cp file.txt gs://my-demo-bucket
