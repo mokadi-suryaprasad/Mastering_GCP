@@ -12,7 +12,7 @@ Below is the easiest explanation of how both options work, with real examples.
 
 # 🟩 1. Google-Managed Encryption Keys (Default)
 
-## ✔️ How It Works (In Easy English)
+## ✔️ How It Works
 - You upload data to Cloud Storage  
 - Google automatically encrypts it  
 - Google stores and protects the encryption key  
