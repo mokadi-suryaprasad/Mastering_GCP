@@ -1,4 +1,4 @@
-# ✅ Google BigQuery – Complete Notes (Beginner → Advanced)
+# ✅ Google BigQuery
 
 Google BigQuery is a **fully managed, serverless data warehouse** used for analytics, reporting, and large‑scale SQL queries.
 
