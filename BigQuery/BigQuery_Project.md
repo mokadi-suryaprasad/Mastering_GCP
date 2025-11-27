@@ -1,4 +1,4 @@
-# Real-Time E-commerce Analytics Pipeline – BigQuery_Project.md
+# Real-Time E-commerce Analytics Pipeline
 
 This document explains **step by step** how to build a **real-time analytics pipeline** on Google Cloud using:
 
